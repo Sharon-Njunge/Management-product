@@ -37,6 +37,7 @@ h5{
     display: flex;
     gap: 120px;
     font-size: 20px;
+    background-color: pink;
 }
 input{
     font-size: 20px;
@@ -51,6 +52,11 @@ input{
    font-size: 20px;
 
 }
+/* .split-left{
+    height: 800px;
+    width: 900px;
+} */
+
 /* Home page styling */
 .home_body{
     /* background-color: pink; */
@@ -84,6 +90,12 @@ input{
     border: 3px pink;
     width: 400px;
 }
+.nyj-task{
+    margin-left: 40%;
+    width: 90px;
+    height: 60px;
+    border-radius: 20px;
+}
 h1{
     text-align: center;
     
@@ -106,6 +118,7 @@ h1{
 }
 h2{
     font-size: 50px;
+    text-align: center;
 }
 /* Achievements styling */
 #new-task{
@@ -174,86 +187,46 @@ a{
     color: black;
     padding-top: 40px;
 }
-@media only screen and(min-width:280px) and (max-width:680px){
-
-    .inner-body{
-        display: flex;
-        flex-wrap: wrap;
-        
-        gap: 10px;
-        padding-top: 20px;
-        /* border: 1px solid; */
-    }
-    .right-text{
-        font-size: 10px;
-        padding-left: 10px;
-    
-    }
-
+@media only screen and (min-width:280px)and (max-width:680px){
     .navbar{
         border: 1px solid;
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
     }
-
+    .right-text{
+        font-size: 40px;
+        padding-left: 20px;
+    
+    }
+    
     .left-image{
-        width: 80px;
-        height: 80px;
+        width: 200px;
+        height: 300px;
     }
-
     .inner-body{
         display: flex;
-        gap: 100px;
-        padding-top: 40px;
-        
-    }
-    .navbar{
-        border: 1px solid;
-        display: flex;
-        gap: 200px;
-    }
-    .right-text{
-        font-size: 100px;
-        padding-left: 80px;
-    
-    }
-}
-
-@media only screen and(min-width:680px) and (max-width:960px) {
-    
-    .inner-body{
-        display: flex;
+        flex-wrap: wrap;
         gap: 10px;
         padding-top: 40px;
+        padding-left: 40px;
         /* border: 1px solid; */
     }
-    .navbar{
-        border: 1px solid;
+
+    .sign_up{
         display: flex;
-        gap: 20px;
         flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .right-text{
-        font-size: 100px;
-        padding-left: 80px;
-    
-    }
-    .container{
-    
-        border: 1px solid;
-    
-    }
-    h6{
-        font-size: 30px;
-    }
-    button{
+        gap: 20px;
         font-size: 20px;
-        background-color: purple;
+        background-color: pink;
+
     }
+    /* .split-left{
+        height: 80px;
+        width: 90px;
+        flex-wrap: wrap;
+    } */
+
     
-    h5{
-        font-size: 20px;
-    }
+
 }
