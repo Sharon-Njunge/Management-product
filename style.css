@@ -9,18 +9,19 @@
 .navbar{
     border: 1px solid;
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
 }
 .right-text{
     font-size: 100px;
     padding-left: 80px;
 
 }
-.container{
+/* .container{
 
     border: 1px solid;
+    height: 836px;
 
-}
+} */
 h6{
     font-size: 30px;
 }
@@ -52,10 +53,12 @@ input{
    font-size: 20px;
 
 }
-/* .split-left{
+.quote{
     height: 800px;
     width: 900px;
-} */
+
+}
+
 
 /* Home page styling */
 .home_body{
@@ -91,7 +94,7 @@ input{
     width: 400px;
 }
 .nyj-task{
-    margin-left: 40%;
+    margin-left: 10%;
     width: 90px;
     height: 60px;
     border-radius: 20px;
@@ -104,9 +107,7 @@ h1{
     border: 2px solid;
     padding: 10px;
     cursor: pointer;
-    background-color:rgb(210,142,143) ;
-}
-#todo-list{
+    background-color:rgb(180, 21, 24) ;
     text-align: center;
 }
 .to-do_body{
@@ -120,11 +121,19 @@ h2{
     font-size: 50px;
     text-align: center;
 }
+#check{
+    margin-left: 10%;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+   
+}
+
 /* Achievements styling */
 #new-task{
     padding: 30px;
-    width: 500px;
-    margin-left: 500px;
+    width: 50%;
+    margin-left: 100px;
     border-radius: 30px;
     font-size: large;
 }
@@ -192,7 +201,58 @@ a{
         border: 1px solid;
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        justify-content: space-between;
+    }
+    .inner-body{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding-top: 4px;
+        /* border: 1px solid; */
+    }
+    .right-text{
+        font-size: 20px;
+        padding-left: 10px;
+    
+    }
+    
+    .left-image{
+        width: 300px;
+        height: 300px;
+    }
+   
+
+    .sign_up{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 15px;
+        background-color: pink;
+
+    }
+    /* .split-left{
+        height: 80px;
+        width: 90px;
+        flex-wrap: wrap;
+    } */
+
+    .quote{
+        height: 300px;
+        width: 350px;
+        flex-wrap: wrap;
+    
+    }
+    
+
+}
+@media only screen and (min-width:680px)and (max-width:960px){
+
+    .navbar{
+        border: 1px solid;
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 5px;
     }
     .right-text{
         font-size: 40px;
@@ -216,8 +276,8 @@ a{
     .sign_up{
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
-        font-size: 20px;
+        gap: 15px;
+        font-size: 15px;
         background-color: pink;
 
     }
@@ -227,6 +287,10 @@ a{
         flex-wrap: wrap;
     } */
 
+    .quote{
+        height: 300px;
+        width: 300px;
+        flex-wrap: wrap;
     
-
+    } 
 }
